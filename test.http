@@ -1,0 +1,7 @@
+###
+
+GET https://teaching.lavbic.net/api/finance/delnice/seznam
+
+###
+
+GET  https://teaching.lavbic.net/api/finance/delnice/cene/AAPL?zacetek=2020-01-10&konec=2020-01-17

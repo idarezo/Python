@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="canvasjs.min.js"></script>
+        <script type="text/javascript">
+           
+        </script>
+    </head>
+    <link rel="stylesheet" href="finance.css" />
+    <script src="finance.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <body style="background: antiquewhite">
+    
+
+        <h1  id="title" class="fontAwesome">TOP 10 most sucesful companies</h1>
+        <h2 id="demo"></h2>
+    <div id ="container" style="padding-left:120px">
+            <div id="seznamPodjetji"></div>
+            <div style="padding-left: 120px; padding-top: 20px" > 
+                <p class="fontAwesome" id="resultParagraph">Choosee the company's information you would like to see</p>
+                <table id="resultTable">
+                    <thead>
+                        <tr>
+                      <th>date</th>
+                      <th>open</th>
+                      <th>high</th>
+                      <th>low</th>
+                      <th>close</th>
+                      <th>volume</th>
+                      <th>adjusted</th>
+
+                    </tr>
+                    </thead>
+                    <tbody> 
+                    </tbody>
+                  </table>
+
+                  <div id="chartContainer" style="height: 300px; width: 100% ; margin-top:24px"></div>
+                  <div id="resultContainer">
+                  <button onclick="mostSucesfullCompany()" id="button"> Show the most sucesfull company</button>   
+                  <p id="resultParagraphID"> </p>      
+                </div>
+               </div>
+            </div>
+            <div>
+           
+        </div>
+            
+    </div>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+.fields {
+    border: double;
+    border-color: red;
+    height: 39px;
+    width: 217px;
+    margin-top: 26px;
+}
+
+
+
+/* .fields:first-child {
+    margin-top:0
+}
+.fields + .fields {
+    border-color: aqua;
+} */
+
+
+#seznamPodjetji{
+    width: 223px;
+    /* background-color: tomato; */
+    margin-left: -60px;
+    
+}
+
+
+#title{
+    color:coral;
+    /* margin-left: 440px; */
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    border: dotted;
+    border-color: bisque;;
+    background: bisque;
+}
+
+#container{
+    display: flex;
+    padding-left: 68px;
+}
+
+table, th, td {
+    border:1px solid black;
+    margin-top: 43px;
+    width:100%;
+    border-collapse: collapse;
+    padding: 10px;
+
+  }
+
+  #button {
+    margin-top: 16px;
+    border-radius: 10px;
+    border-color: coral;
+    color: brown;
+}
+    
+
+.resultContainer{
+    border-style: none;
+    background: darksalmon;
+    border-radius: 16px;
+    text-align: center;
+
+
+}
+
+.headers  {
+    border:solid;
+    border-radius: 10px;
+    width: 200px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    background-color: bisque;
+    text-align: center;
+    color: coral;
+}
+
+.dropDown {
+    margin-bottom: 16px;
+    border-radius: 12px;
+    border-color: coral;
+}
+
+.dataTable{
+   
+  padding: 7px;
+  border-bottom: none;
+
+} 
+
+.fontAwesome {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#resultParagraph{
+    padding: 10px;
+    border-top-style: double;
+    border-bottom-style: dotted;
+}
